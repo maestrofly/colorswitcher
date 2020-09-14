@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.Flex{
+    display:flex;
+    margin-left: 35%;
+}
+
+#green{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+#red{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+#blue{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+#yellow{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+}

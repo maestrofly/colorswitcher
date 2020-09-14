@@ -1,0 +1,38 @@
+body{
+  text-align: center;
+  background-color: lightgray;
+}
+
+.flex{
+  display: flex;
+  margin-left:35%;
+}
+
+#green{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgb(37, 223, 37);
+}
+
+#white{
+  
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+#blue{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgb(47, 47, 218);
+}
+
+#gold{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgb(206, 206, 30);
+}
