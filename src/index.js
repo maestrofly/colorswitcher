@@ -1,15 +1,8 @@
-function green_bg(){
-  document.body.style.backgroundColor = 'green';
-}
+function changeColor(e){
+  document.body.style.background = `${e.target.id}`
 
-function white_bg(){
-  document.body.style.backgroundColor = 'white';
 }
-
-function blue_bg(){
-  document.body.style.backgroundColor = 'blue';
-}
-
-function gold_bg(){
-  document.body.style.backgroundColor = 'gold';
-}
+const li = document.querySelectorAll(".round")
+li.forEach((li => {
+  li.addEventListener("click", changeColor)
+}))
